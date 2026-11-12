@@ -1,0 +1,20 @@
+BABY SHOWER GAEL — GITHUB PAGES (PORTADA ANIMADA)
+
+ARCHIVOS:
+- index.html: página con el video como portada y toda la superficie clicable.
+- portada.mp4: video de portada.
+
+PUBLICACIÓN:
+1. Crea un repositorio en GitHub, por ejemplo: baby-gael.
+2. Descomprime este ZIP en tu computadora.
+3. Sube index.html y portada.mp4 directamente a la raíz del repositorio.
+4. Abre Settings > Pages.
+5. En Build and deployment, selecciona Deploy from a branch.
+6. Selecciona la rama main y la carpeta /(root), y guarda.
+7. Espera a que GitHub Pages publique el sitio.
+
+Al tocar cualquier parte del video se abrirá:
+https://invitaciones-digitales-lg.my.canva.site/baby-gael
+
+NOTA:
+El video está configurado para reproducirse automáticamente, en silencio y en bucle.

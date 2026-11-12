@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baby Shower Gael</title>
+  <meta name="theme-color" content="#e4f0e9">
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      width: 100%;
+      background: #e4f0e9;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .cover {
+      position: relative;
+      width: min(100%, 480px);
+      line-height: 0;
+      overflow: hidden;
+    }
+    .cover video {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+    .open {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      display: block;
+      cursor: pointer;
+    }
+    .open:focus-visible {
+      outline: 3px solid #315f78;
+      outline-offset: -4px;
+    }
+  </style>
+</head>
+<body>
+  <main class="cover">
+    <video autoplay muted loop playsinline preload="auto"
+           aria-label="Portada animada de la invitación Baby Shower de Gael">
+      <source src="portada.mp4" type="video/mp4">
+      Tu navegador no puede reproducir este video.
+    </video>
+    <a class="open"
+       href="https://invitaciones-digitales-lg.my.canva.site/baby-gael"
+       aria-label="Abrir invitación completa del Baby Shower de Gael"
+       title="Abrir invitación completa"></a>
+  </main>
+</body>
+</html>
